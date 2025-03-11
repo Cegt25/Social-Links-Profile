@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    padding: 120px 24px;
+    background-color: #141414;
+    overflow: hidden;
+}
+
+.layout__container {
+    width: 326px;
+    height: 577px;
+    border-radius: 15px;
+    padding: 24px;
+    background-color: #1F1F1F;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__image {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 3rem;
+}
+
+.image__avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container__titles {
+    width: 283px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles__title {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.titles__city {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.titles__description {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.container__links {
+    width: 283px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.links__link {
+    width: 100%;
+    height: 48px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #333333;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links__link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: default;
+}
+.container__footer {
+    width: 100%;
+    height: 8%;
+    text-align: center;
+}
+
+.footer__text {
+    font-size: 1rem;
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 1140px) {
+
+    .layout {
+        width: 100%;
+        height: 100%;
+        background-color: #141414;
+        overflow: hidden;
+    }
+
+    .layout__container {
+        width: 326px;
+        height: 577px;
+        border-radius: 15px;
+        padding: 24px;
+        background-color: #1F1F1F;
+        margin: 0 auto;    
+    }
+
+    .container__footer {    
+        width: 450px;
+        height: 8%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+
+}
